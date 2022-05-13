@@ -7,6 +7,10 @@ android {
     compileSdkVersion 32
     buildToolsVersion "32.0.0"
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.example.bjjrecord"
         minSdkVersion 16
